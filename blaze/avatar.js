@@ -48,7 +48,8 @@ Template.avatar.helpers({
 
   initialsText: function () {
     var user = this.user ? this.user : Meteor.users.findOne(this.userId);
-    return initialsText(user, this);
+    //return initialsText(user, this);
+    return user.profile.name || user.profile.email
   }
 
 });
