@@ -9,6 +9,9 @@ ANNOUNCEMENT
 
 This package has been forked from @bengott's original Avatar package since it is longer maintained. It's been added to the *utilities* collection so that it can henceforth be maintained by other community members.
 
+FORKE_MODIFICATIONS
+2016-04-14 . initials now in fulltext or full email since we need a tooltip on the avatar showing the full name
+
 BREAKING CHANGES
 ----------------
 
